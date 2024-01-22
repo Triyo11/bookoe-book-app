@@ -1,4 +1,4 @@
-const book_api = import.meta.env.VITE_API_BASE_URL 
+const book_api = "https://bookapi.cm.hmw.lol/api"
 
 export const getBookData = async (resource) => {
   const response = await fetch(`${book_api}/${resource}`)
