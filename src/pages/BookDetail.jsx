@@ -53,7 +53,7 @@ const BookDetail = () => {
           <div className="py-5">
             {bookData.synopsis}
           </div>
-          <div>First published {published}</div>
+          <>First published {published}</>
         </div>
       </div>
       <FooterCTA />
